@@ -140,3 +140,4 @@ lottery(File, Res) :-
     loop_through_tuxera(Tuxeroi, My_Trie, Res). %evaluate
 
 
+ 
