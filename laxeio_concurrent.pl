@@ -174,3 +174,11 @@ lottery(File, Res) :-
 	concurrent(4, Goals_merge, []),
 
 	append(R12, R34, Res).
+
+
+
+
+
+
+
+
