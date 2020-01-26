@@ -28,7 +28,7 @@ read_input(File, Laxnoi, [T1, T2, T3, T4]) :-   %read whole file
     read_lines(Stream, N, Laxnoi),
 	
 	%split Q in half but if Q is odd the extra bit
-	%found in bit[0] (= Q /\ 1) are gonna go to Half2
+	%found in bit[0] (= Q /\ 1) is gonna go to Half2
 	Half1 is Q >> 1,
 	Half2 is (Q >> 1) + (Q /\ 1),
 
