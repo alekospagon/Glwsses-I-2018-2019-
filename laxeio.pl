@@ -139,5 +139,4 @@ lottery(File, Res) :-
     trie_init(Laxnoi, [], My_Trie),             %trie init
     loop_through_tuxera(Tuxeroi, My_Trie, Res). %evaluate
 
-
  
